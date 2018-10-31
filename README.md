@@ -3,7 +3,7 @@ Proxy環境下での各種設定方法
 Squidで立てたProxyで検証  
 SSL Bumpの設定とBASIC認証を設定した想定
 
-### Gradlew  
+### Gradlew
 1. JREのlib/security/cacertsを任意の場所にコピーして使う(直接使っても良いのかも)  
 1. プロキシサーバの自己証明書をcacertsストアに追加する  
 cacertsファイルのある場所に移動後、以下を実行  
@@ -17,3 +17,7 @@ cacertsファイルのある場所に移動後、以下を実行
 Java 8 Update 111 からBASIC認証が禁止されたのでこの対応が必要らしい  
 `set DEFAULT_JVM_OPTS="-Djdk.http.auth.tunneling.disabledSchemes=\"\""`
 1. gradlewコマンドを実行して、gradleがダウンロードされるか確認する
+
+### Gradle
+### RubyGems
+### NPM
