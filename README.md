@@ -1,5 +1,7 @@
 # through-proxy
 Proxy環境下での各種設定方法  
+Squidで立てたProxyで検証  
+SSL Bumpの設定とBASIC認証を設定した想定
 
 ### Gradlew  
 1. JREのlib/security/cacertsを任意の場所にコピーして使う(直接使っても良いのかも)  
